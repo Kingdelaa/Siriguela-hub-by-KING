@@ -1,0 +1,18 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Siriguela Hub🍒", "Default")
+
+local tab = DrRayLibrary.newTab("🍒MENU BLOX FRUTIS🍒", "ImageIdHere")
+
+tab.newButton("Hoho Hub🍒", "Execute me!", function()
+    
+_G.HohoVersion = "v4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+end)
+
+
+tab.newButton("Quantum🍒", "Execute me!", function()
+
+loadstring(game:HttpGet"https://quantum-onyx-nextgeneration.vercel.app/QuantumOnyxTeamMainHub.lua")()
+end)
+
